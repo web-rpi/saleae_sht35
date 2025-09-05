@@ -1,0 +1,14 @@
+{
+  "name": "SHT35",
+  "apiVersion": "1.0.0",
+  "author": "Web-RPi",
+  "version": "1.0.0",
+  "description": "Decodes I²C communication with the SHT35 sensor and displays commands and measured values in plain text.",
+  "extensions": {
+    "SHT35": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.Hla"
+    }
+  }
+}
+
